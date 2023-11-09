@@ -40,4 +40,4 @@ def grafico_amenazas():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    generar_grafico_amenazas_san_luis()
+    grafico_amenazas()
