@@ -1,9 +1,8 @@
 # extorsion.py
 import pandas as pd
 import matplotlib.pyplot as plt
-from datetime import datetime, timedelta
 
-def generar_grafica():
+def generar_grafica_extorsion():
     # URL de la base de datos CSV
     url = "https://www.datos.gov.co/resource/q2ib-t9am.csv?$query=SELECT%0A%20%20%60fecha_hecho%60%2C%0A%20%20%60cod_depto%60%2C%0A%20%20%60departamento%60%2C%0A%20%20%60cod_muni%60%2C%0A%20%20%60municipio%60%2C%0A%20%20%60cantidad%60%0AWHERE%0A%20%20caseless_one_of(%60departamento%60%2C%20%22ANTIOQUIA%22)%0A%20%20AND%20caseless_one_of(%60municipio%60%2C%20%22SAN%20LUIS%22)%0AORDER%20BY%20%60fecha_hecho%60%20DESC%20NULL%20LAST"
 
@@ -40,3 +39,8 @@ def generar_grafica():
 
     # Retorna la figura de matplotlib
     return plt.gcf()
+
+# Llamada a la función principal cuando se ejecuta el script directamente
+if __name__ == "__main__":
+    generar_grafica_extorsion().show()
+
