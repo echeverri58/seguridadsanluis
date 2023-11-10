@@ -42,5 +42,5 @@ def generar_grafica_extorsion():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    generar_grafica_extorsion().show()
+    generar_grafica_extorsion()
 
