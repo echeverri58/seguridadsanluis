@@ -1,4 +1,3 @@
-# hurto_vehiculos.py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -24,6 +23,9 @@ def grafica_hurto_vehiculos():
     # Convierte los valores de la columna 'fecha_hecho' a string
     cantidad_por_año.index = cantidad_por_año.index.astype('str')
 
+    # Crea una nueva figura de matplotlib
+    plt.figure()
+
     # Crea la gráfica de barras
     plt.bar(cantidad_por_año.index, cantidad_por_año.values)
     plt.xlabel('Año')
@@ -42,4 +44,5 @@ def grafica_hurto_vehiculos():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_hurto_vehiculos()
+    grafica_hurto_vehiculos().show()
+
