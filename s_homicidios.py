@@ -42,4 +42,4 @@ def grafica_s_homicidios():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_s_homicidios().show()
+    grafica_s_homicidios()
