@@ -42,4 +42,4 @@ def grafica_lesiones_personales():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_lesiones_personales().show()
+    grafica_lesiones_personales()
