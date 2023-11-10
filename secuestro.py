@@ -42,4 +42,4 @@ def grafica_secuestro():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_secuestro().show()
+    grafica_secuestro()
