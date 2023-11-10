@@ -42,4 +42,4 @@ def grafica_violencia_intrafamiliar():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_violencia_intrafamiliar().show()
+    grafica_violencia_intrafamiliar()
