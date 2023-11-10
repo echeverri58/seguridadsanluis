@@ -42,4 +42,4 @@ def grafica_lesiones_transito():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_lesiones_transito().show()
+    grafica_lesiones_transito()
