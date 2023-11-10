@@ -42,4 +42,4 @@ def grafica_pirateria_terrestre():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_pirateria_terrestre().show()
+    grafica_pirateria_terrestre()
