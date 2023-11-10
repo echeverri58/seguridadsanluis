@@ -42,4 +42,4 @@ def grafica_hurto_personas():
 
 # Llamada a la función principal cuando se ejecuta el script directamente
 if __name__ == "__main__":
-    grafica_hurto_personas().show()
+    grafica_hurto_personas()
